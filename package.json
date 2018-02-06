@@ -1,0 +1,24 @@
+{
+  "name": "nodelean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc src/app.ts && node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^1.10.33",
+    "jake": "^8.0.15",
+    "nodejs": "0.0.0",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "@types/jake": "0.0.30",
+    "@types/node": "^9.4.0",
+    "jquery": "^1.11.0"
+  }
+}
